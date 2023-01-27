@@ -9,6 +9,7 @@ basic_function = function(v){
     min = min(v),
     max  = max(v),
     range = max(v) - min(v),
-    std_dev = sd(v)
+    std_dev = sd(v),
+    print("Hello world")
   )
 }
