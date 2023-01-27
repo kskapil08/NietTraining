@@ -10,6 +10,6 @@ basic_function = function(v){
     max  = max(v),
     range = max(v) - min(v),
     std_dev = sd(v),
-    print("Hello world")
+    quantile = quantile(v,0)
   )
 }
