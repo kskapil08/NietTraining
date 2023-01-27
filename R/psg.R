@@ -9,7 +9,6 @@ basic_function = function(v){
     min = min(v),
     max  = max(v),
     range = max(v) - min(v),
-    std_dev = sd(v),
-    quantile = quantile(v,0)
+    sum = max(v) + min(v)
   )
 }
